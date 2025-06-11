@@ -1,0 +1,45 @@
+{
+  "name": "pci-document-manager-server",
+  "version": "0.1.0",
+  "description": "Backend para la herramienta de gestión de documentos PCI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "jsonwebtoken": "^9.0.1",
+    "bcryptjs": "^2.4.3",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^4.0.0",
+    "pdf-parse": "^1.1.1",
+    "mammoth": "^1.6.0",
+    "node-schedule": "^2.1.1",
+    "nodemailer": "^6.9.4",
+    "@slack/web-api": "^6.8.1",
+    "googleapis": "^126.0.1",
+    "dropbox": "^10.34.0",
+    "helmet": "^7.0.0",
+    "compression": "^1.7.4",
+    "express-validator": "^7.0.1",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.6.4",
+    "supertest": "^6.3.3",
+    "eslint": "^8.48.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
